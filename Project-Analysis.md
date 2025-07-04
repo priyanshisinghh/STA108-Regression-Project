@@ -16,6 +16,8 @@ I started off with having no predictors in the model. Then, with respect to how 
 #### 2. Backward Elimination:
 I started off with having all predictors in this model, and each predictor was removed iteratively based on which one contributed the least to the mode. This approach once again retained CognitionZScore, StressScore, DepressionScore, ClassesMissed, and AnxietyScore into its final model, reinforcing the predictive power of these variables for the model. Some other variables such as AnxietyScore and WeekdaySleep were removed towards the beginning of the process due to their minimal impact on the improvement of the adjusted R-squared values.
 
+
+
 Diagnostic plots for the final model were conducted to assess the adjusted R-squared value [Figure 53]. We can see that the value is higher when all 6 predictors are used compared to some combination of them, and the r-adjusted squared value is 0.1561.
 
 The final model includes CognitionZScore, CognitionZScore, StressScore, DepressionScore, ClassesMissed, and AnxietyScore, all of which help to explain 15.61% of GPA variability (with the adjusted R-squared = 0.1561). The analysis identified these 6 as significant predictors of GPA. While the model’s predictive power is still sub-par highlights key factors influencing academic performance.
